@@ -1,0 +1,9 @@
+
+gcc libevent_client.c -o client -I/home/wy/Downloads/libevent-2.1.12-stable/build/include -L/home/wy/Downloads/libevent-2.1.12-stable/build/lib -levent_core -levent -levent_extra -levent_pthreads
+
+
+gcc libevent_server.c -o server -I/home/wy/Downloads/libevent-2.1.12-stable/build/include -L/home/wy/Downloads/libevent-2.1.12-stable/build/lib -levent_core -levent -levent_extra -levent_pthreads
+
+
+aarch64-linux-gnu-gcc libevent_server.c list_node.c -o libevent_server -I/home/wy/Downloads/libevent-2.1.12-stable/build_arm/include -L/home/wy/Downloads/libevent-2.1.12-stable/build_arm/lib -levent_core -levent -levent_extra -levent_pthreads
+
